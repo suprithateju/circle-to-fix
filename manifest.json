@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "Circle to Fix - Visual QA & Agent Prompt Generator",
+  "version": "1.0.0",
+  "description": "Circle a problem on any web page, detect the element code, and get a ready-to-paste prompt for your coding agent.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "commands": {
+    "toggle-drawing-mode": {
+      "suggested_key": {
+        "default": "Alt+C",
+        "mac": "Command+Shift+C"
+      },
+      "description": "Start drawing mode on the active page"
+    }
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Circle to Fix"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["overlay.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
