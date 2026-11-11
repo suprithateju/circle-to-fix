@@ -29,4 +29,6 @@
 
 ## 🖥️ User Workflow Preview
 <img width="1920" height="1080" alt="Screenshot (322)" src="https://github.com/user-attachments/assets/6b2f1436-f56e-40e7-9cda-1e687dbb91d3" />
+<img width="573" height="330" alt="image" src="https://github.com/user-attachments/assets/057b2384-8173-4fe1-a28d-cd82cc142d6f" />
+<img width="569" height="334" alt="image" src="https://github.com/user-attachments/assets/099c916d-14c5-4e6d-8f97-ad775d75dbda" />
 
